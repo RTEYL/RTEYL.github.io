@@ -1,11 +1,11 @@
 # Site settings
-author: tyler jones
-title: 
+author: Tyler Jones
+title: Learning Software Engineering!
 header-img: img/home-bg.png
 email: rteyl1690@gmail.com
-copyright_name: tyler jones
+copyright_name: Tyler Jones
 description: > # this means to ignore newlines until "baseurl:"
-  
+  RTEYL.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  RTEYL
