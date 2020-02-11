@@ -5,7 +5,7 @@ header-img: img/home-bg.png
 email: rteyl1690@gmail.com
 copyright_name: Tyler Jones
 description: > # this means to ignore newlines until "baseurl:"
-  Lets' Go
+  Written By Tyler Jones
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  RTEYL
