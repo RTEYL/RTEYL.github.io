@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Making the switch from `omniauth` by itself  to using `devise/omniauth`"
-date:       2020-08-01 21:53:31 +0000
+title:      "Making the switch from Omniauth by itself  to using Devise/Omniauth"
+date:       2020-08-01 17:53:32 -0400
 permalink:  making_the_switch_from_omniauth_by_itself_to_using_devise_omniauth
 ---
 
