@@ -48,7 +48,7 @@ Each day I struggled to keep authentication working, constantly resetting the da
 $rails db:reset db:migrate
 ```
 
-after some resets it would work for a few hours and id hit [redirect-uri-mismatch error](https://developer.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#redirect-uri-mismatch) repeatedly.  I could also occasionally pass authentication wile GitHub redirects to: ![image-20200801133606506](C:\Users\Tyler\AppData\Roaming\Typora\typora-user-images\image-20200801133606506.png)
+after some resets it would work for a few hours and id hit [redirect-uri-mismatch error](https://developer.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#redirect-uri-mismatch) repeatedly.  I could also occasionally pass authentication wile GitHub redirects to a `response status 404`
 
 I could still go back to my app and a user would be authenticated/found in the database and session but the call back was interrupted by `response status 404`. 
 
