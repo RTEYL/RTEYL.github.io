@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Project Planning is so important!"
-date:       2020-09-25 21:55:03 +0000
+date:       2020-09-25 17:55:04 -0400
 permalink:  project_planning_is_so_important
 ---
 
@@ -27,11 +27,11 @@ frontend {
 
     -check if highlighted box matches event box in arrays
 
-    -highlight previous box + new random box and add to 					array
+    -highlight previous box + new random box and add to array
 
-    -listen for click event(s) WHILE checking array (if 					first click doesn’t immediately match -> failure .					..etc...)
+    -listen for click event(s) WHILE checking array (if first click doesn’t immediately match -> failure ...etc...)
 
-    -add to score on each success + previous successes(first 				round = 1, second round = 2 etc...)
+    -add to score on each success + previous successes(first round = 1, second round = 2 etc...)
 
     -upon failure display results and score ranking
 
