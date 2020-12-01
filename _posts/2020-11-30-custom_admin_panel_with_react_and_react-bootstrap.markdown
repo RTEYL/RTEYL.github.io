@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Custom admin panel with React and react-bootstrap"
-date:       2020-12-01 03:04:01 +0000
+date:       2020-11-30 22:04:02 -0500
 permalink:  custom_admin_panel_with_react_and_react-bootstrap
 ---
 
@@ -85,11 +85,11 @@ Moving into the AdminRoutes Component
       </>
 ```
 
-> Note: I pass items as props in the container to update the redux store on edit or delete whereas I'm not storing all the users from the Api in the store so I wont need to update the redux store as well.
+> Note: I pass items as props in the container to update the redux store on edit or delete whereas I'm not storing all the users from the Api in the store so I wont need to update the redux store for users as well.
 
 Now to the admin container....
 
-I use react-bootstraps Tabs component to separate Items and Users list as well as create a nice style and UI as well as some create_new buttons that link to their respective routes. 
+I use react-bootstraps Tabs component to separate Items and Users list and create a nice UI. I also added some create_new buttons that link to their respective routes. 
 
 ```jsx
 import React from "react";
@@ -242,4 +242,4 @@ import { Button, Form } from "react-bootstrap";
 
 and `onSubmit` dispatches an action as well.
 
-This was my first project with React/Redux and with a days worth of coding/debugging I love the simplicity of this admin panel as well as being able to customize it to my own needs without large imports or clones.... exception (*Cough, Cough*) Bootstrap. 
+This was my first project with React/Redux and with a days worth of coding/debugging on this admin panel, I love its simplicity as well as being able to customize it to my own needs without large imports or clones.... exception (*Cough, Cough*) Bootstrap. 
