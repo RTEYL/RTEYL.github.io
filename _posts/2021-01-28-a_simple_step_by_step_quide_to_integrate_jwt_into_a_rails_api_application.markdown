@@ -143,7 +143,7 @@ However you decide to config log in/ log out the important bits:
 
 ```js
 // add/remove token from local storage
-localStorage.setItem("token", json.jwt)
+localStorage.setItem("token", token)
 localStorage.removeItem("token");
 
 // include auth header for subsequent requests
