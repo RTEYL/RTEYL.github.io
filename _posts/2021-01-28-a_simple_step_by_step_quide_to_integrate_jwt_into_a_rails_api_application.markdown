@@ -20,9 +20,11 @@ gem 'jwt'
 
 run `bundle`
 
-Next we’ll add some helpers to `app/controllers/application_controller.rb`
+Next we’ll add some helpers:
 
 ```ruby
+#app/controllers/application_controller.rb
+
 class ApplicationController < ActionController::Base
 	skip_before_action :verify_authenticity_token
 	helper_method :encode_token, :auth_header, :decoded_token, :current_user,
@@ -59,9 +61,10 @@ end
 
 > more customization options can be found on [jwt‘s docs](https://github.com/jwt/ruby-jwt)
 
-`app/controllers/registrations_controller.rb`
 
 ```ruby
+#app/controllers/registrations_controller.rb
+
 class RegistrationsController < ApplicationController
 
   def create
