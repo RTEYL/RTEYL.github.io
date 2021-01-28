@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A simple step by step quide to integrate JWT into a Rails API application."
-date:       2021-01-28 22:25:20 +0000
+date:       2021-01-28 17:25:21 -0500
 permalink:  a_simple_step_by_step_quide_to_integrate_jwt_into_a_rails_api_application
 ---
 
@@ -27,7 +27,7 @@ class ApplicationController < ActionController::Base
 	skip_before_action :verify_authenticity_token
 	helper_method :encode_token, :auth_header, :decoded_token, :current_user,
    SECRET = ENV['SECRET'] # your application secret
-  												# Rails.application.YOUR_SECRET also works depending on your deployment
+	 # Rails.application.YOUR_SECRET also works depending on your deployment
 
   def encode_token(payload) # payload includes your jwt options i.e {user_id, expiration, algorithm}
     JWT.encode(payload, SECRET)
