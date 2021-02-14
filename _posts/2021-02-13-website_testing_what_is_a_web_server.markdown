@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Website testing: What is a web server? "
-date:       2021-02-14 01:05:16 +0000
+date:       2021-02-13 20:05:16 -0500
 permalink:  website_testing_what_is_a_web_server
 ---
 
@@ -17,10 +17,10 @@ permalink:  website_testing_what_is_a_web_server
 
 resources: 
 
-https://www.hostinger.com/tutorials/what-is-localhost
+[What is Localhost](https://www.hostinger.com/tutorials/what-is-localhost)
 
-https://stackoverflow.com/questions/52961775/what-is-the-difference-between-local-server-and-a-web-server#:~:text=Not%20much%20more.,that%20can%20serve%20web%20pages.&text=A%20local%20server%20is%20again,the%20local%20network%20or%20LAN.
+[Local vs Web Server](https://stackoverflow.com/questions/52961775/what-is-the-difference-between-local-server-and-a-web-server#:~:text=Not%20much%20more.,that%20can%20serve%20web%20pages.&text=A%20local%20server%20is%20again,the%20local%20network%20or%20LAN.)
 
-https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server
+[What is a Web Server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 
-https://evanhahn.com/understanding-express/
+[Understanding Express](https://evanhahn.com/understanding-express/)
