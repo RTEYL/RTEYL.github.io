@@ -5,7 +5,8 @@ date:       2021-03-13 17:10:38 -0500
 permalink:  maintaining_an_open_source_project_on_github
 ---
 
-![](hthttps://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80tp://)
+![](https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80tp://)
+
 Open source license:
 
 ​	The first step to creating an open source project on GitHub is choosing the right license. GitHub recommends [choosealicense.com](https://choosealicense.com/) to help you make an informed decision on which license best suits your needs and in the [Gihub Licensing Guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository) there's a helpful [blog](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) link that goes into more discussion on open source specifically. choosing a license is extremely important for any project “otherwise your project is just code that you shared online” -Dodds. 
@@ -73,3 +74,4 @@ Misc:
 ​	[matiassingers/auesome-readme](https://github.com/matiassingers/awesome-readme)
 
 ​	[opensource.guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project)
+
