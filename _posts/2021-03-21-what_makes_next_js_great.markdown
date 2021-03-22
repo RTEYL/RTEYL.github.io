@@ -1,11 +1,11 @@
 ---
 layout: post
 title:      "What Makes Next.js Great!"
-date:       2021-03-22 01:13:32 +0000
+date:       2021-03-21 21:13:33 -0400
 permalink:  what_makes_next_js_great
 ---
 
-  Next is a framework built for optimizing React’s client-side rendering SPA library into a server-side rending framework. According to [this blog](https://blog.logrocket.com/next-js-vs-create-react-app/) using lighthouse, next is much faster.
+  Next is a framework built for optimizing React’s client-side rendering SPA library into a server-side rending framework.
 
 ​	One of Next primary optimization features, Automatic static optimization, makes static parts of webpages render immediately then updates dynamic content after, whereas other frameworks will only render static pages if the entire page contains static content and dynamic pages take a longer time to render. A quote from [Nex.js docs](https://nextjs.org/docs/advanced-features/automatic-static-optimization) says “If `getServerSideProps` or `getInitialProps` is present in a page, Next.js will switch to render the page on-demand, per-request. If the above is not the case, Next.js will statically optimize your page automatically by prerendering the page to static HTML.”
 
