@@ -31,4 +31,4 @@ Resources:
 
 [Performance Metrics - Sean Connolly - Logrocket](https://blog.logrocket.com/next-js-vs-create-react-app/)
 
-[Lighthouse - Daniel Phiri - Logrocket](
+[Lighthouse - Daniel Phiri - Logrocket](https://blog.logrocket.com/lighthouse-and-how-to-use-it-more-effectively/)
