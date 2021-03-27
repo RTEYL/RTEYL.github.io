@@ -6,7 +6,7 @@ permalink:  how_to_configure_next-auth_with_mongodb_atlas_mongoose
 ---
 
 
-I’m working with a group to create an open source application using `Next.js` with `MongoDB` and `Mongoose`, I found It difficult to find adequate documentation on being able to manipulate, query and update a user with`next-auth`. I dug into issues, discussions, and documentation but only found myself halfway there.
+I’m working with a group to create an open source application using `Next.js` with `MongoDB` and `Mongoose`, I found It difficult to find adequate documentation on being able to manipulate, query and update a user with `next-auth`. I dug into issues, discussions, and documentation but only found myself halfway there.
 
 Required packages:
 
@@ -146,7 +146,7 @@ export default async (req, res) => {
 
 ```
 
-I hope this helps, I found the documentation to be suboptimal for mongo/mongoose however `next-auth` supports [MySQL, MariaDB, Postgres, SQL Server, and SQLite](https://next-auth.js.org/configuration/databases) as well. If you don’t need to have custom user schemas it will work out of the box with MongoDB, I’ve also read some discussions of having a separate `user-info` model for custom attributes then using callbacks to populate it though, I have not tested it myself.
+I hope this helps, I found the documentation to be suboptimal for mongo/mongoose however `next-auth` supports [MySQL, MariaDB, Postgres, SQL Server, and SQLite](https://next-auth.js.org/configuration/databases) as well. If you don’t need to have custom user schemas it will work out of the box with MongoDB, I’ve also read some discussions of having a separate `user-info` model for custom attributes then using callbacks to populate it although, I have not tested it myself.
 
 ```js
 // pages/api/auth/[...nextauth.js]
