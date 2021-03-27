@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "How to configure `next-auth` with MongoDB Atlas + Mongoose"
-date:       2021-03-27 20:59:58 +0000
+title:      "How to configure next-auth with MongoDB Atlas + Mongoose"
+date:       2021-03-27 16:59:58 -0400
 permalink:  how_to_configure_next-auth_with_mongodb_atlas_mongoose
 ---
 
