@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Intro to Object Oriented Programming"
-date:       2021-04-25 21:02:21 +0000
+date:       2021-04-25 17:02:21 -0400
 permalink:  intro_to_object_oriented_programming
 ---
 
@@ -26,4 +26,6 @@ References:
 [Free Code Camp - programming paradims](https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/)
 
 [educative - OOP](https://www.educative.io/blog/object-oriented-programming)
+
+Edit: [Part two is up!](https://blog.devtylerjones.com/intro_to_oop_part_2)
 
