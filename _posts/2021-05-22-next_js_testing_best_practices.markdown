@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Next.js Testing Best Practices"
-date:       2021-05-22 22:46:47 +0000
+date:       2021-05-22 18:46:47 -0400
 permalink:  next_js_testing_best_practices
 ---
 
@@ -28,7 +28,7 @@ Use jest mock functions as little as possible, if you feel like there need to be
 
 ​	Next.js separates the frontend and backend into individual components and combines (builds) them at run time. Because of that, some developers believe that there should be a higher emphasis on integration testing to ensure the app is working properly when this happens. It’s also common to have lighter unit tests that are narrow in scope and emphasize the more crucial aspects of the application. With that information, it’s common to see some anti-patterns of test-driven development like the “testing cone”:
 
-![The Evolution of the Testing Pyramid | James Willett](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxDeeLWJGcG30AtLwggx00dBWQQnCj1DAHrQ&usqp=CAU)
+![The Evolution of the Testing Pyramid - James Willett](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxDeeLWJGcG30AtLwggx00dBWQQnCj1DAHrQ&usqp=CAU)
 
 Or the “testing trophy” pattern popularized by [Kent C. Dodds](https://kentcdodds.com/):
 
