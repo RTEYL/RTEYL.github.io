@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "An Introduction Into TypeScript"
-date:       2021-05-28 00:12:15 +0000
+date:       2021-05-27 20:12:15 -0400
 permalink:  an_introduction_into_typescript
 ---
 
@@ -12,7 +12,7 @@ permalink:  an_introduction_into_typescript
 let sum = "1" + 2 //=> "12" 
 ```
 
-With type checking we can make these conversions through errors to help developers avoid errors and unintentional outcomes like the above example we might expect the sum to be `3` or an error preventing an outcome where the number `2` would be converted to String and vise-versa.
+With type checking we can make these conversions throw errors to help developers avoid errors and unintentional outcomes like the above example we might expect the sum to be `3` or an error preventing an outcome where the number `2` would be converted to String and vise-versa.
 
 ​	When do these type conversions and checks happen? Well, that’s where the static part comes in. The two prominent types of type checking are static and dynamic. Static type checks occur at compile time, when the code is translated to machine code by a compiler (in this case [Babel](https://babeljs.io/)). Dynamic type checks occur at run time, after the code has been compiled and is then executed or run indefinitely.
 
