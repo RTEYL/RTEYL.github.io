@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Technologies you need for a monorepo"
-date:       2021-06-19 19:58:12 +0000
+title:      "Technologies You Need For a Monorepo"
+date:       2021-06-19 15:58:12 -0400
 permalink:  technologies_you_need_for_a_monorepo
 ---
 
